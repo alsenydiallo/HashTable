@@ -1,0 +1,32 @@
+Name: Alseny Diallo
+Email: Alsenidiallo@live.com
+
+Overview:
+---------
+The primary operations of a Frequency table are click and count. Click increments the integer
+counter associated with the key if the key is already in the table; if the key is not in table it is
+inserted and given an initial count of 1. Count returns the value of the counter associated with
+the key – if the key is not in the table, 0 is returned.
+
+File in archive:
+---------------
+- SortedWordCount.java (Set of test)
+- HashFrequencytable.java (Implementation of a hash table data structure)
+- Frequencytable.java (word count Interface)
+- mobydick-words.txt
+- README.txt 
+
+Build/Run/Test instruction:
+---------------------------
+create a Java project in eclipse 
+Use execution environment JRE (JavaSE-1.8)
+And import the following source file:
+- SortedWordCount.java
+- HashFrequencytable.java
+- Frequencytable.java
+- mobydick-words.txt
+
+Note:
+-----
+make sure you feed "mobydick-words.txt" or your own text file as a text file argument in the Java run config under
+arg(x)
